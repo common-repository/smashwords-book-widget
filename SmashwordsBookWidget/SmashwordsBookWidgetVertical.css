@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+.swbw_slideshow.vertical .swbw_slidesContainer .swbw_slide {
+  margin-bottom:4px;
+}
+/**
+ * Slideshow controls style rules.
+ */
+.swbw_slideshow.vertical .swbw_control {
+    width: 30px;
+    height:17px;
+    font-size:15px;
+    line-height: 15px;
+}
+
+
+.swbw_slideshow.vertical .swbw_leftControl {
+  top: 0px;
+  left: 60px;
+  border-radius: 5px 5px 0 0;
+}
+
+.swbw_slideshow.vertical .swbw_rightControl {
+  top:auto;
+  bottom:4px;
+  left: 60px;
+  border-radius: 0 0 5px 5px;
+}

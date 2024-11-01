@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+.swbw_slideshow {
+   height:208px;
+   position:relative;
+}
+
+.swbw_slideshow .swbw_slidesContainer {
+  margin:0 auto;
+  height:208px;
+  overflow:hidden;
+  position:relative;
+}
+.swbw_slideshow .swbw_slidesContainer .swbw_slide {
+  margin-top:0;
+  margin-left:0;
+  margin-right:4px;
+  border-radius: 6px;
+  height:200px;
+  float:left;
+  text-align: center;
+  background-color:#DDDDDD;
+  overflow: hidden;
+  padding-top:4px;
+  padding-bottom:4px;
+}
+/**
+ * Slideshow controls style rules.
+ */
+.swbw_control {
+	color: #555555;
+    background-color: #EEEEEE;
+    border-color: #AAAAAA;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    line-height:25px;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 17px;
+    top: 85px;
+    z-index: 1;
+}
+
+.swbw_control_deactivated {
+    color: #AAAAAA;
+    cursor: default;
+}
+
+.swbw_leftControl {
+  left:0;
+  border-radius:  5px 0 0 5px;
+}
+
+.swbw_rightControl {
+  right:0;
+  border-radius: 0 5px 5px 0;
+  margin-right:4px;
+}
